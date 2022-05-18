@@ -8,3 +8,10 @@ function alert2(){
 }
 let cancel = document.getElementById('cancel');
 cancel.addEventListener('click', alert2);
+let showDate = document.getElementById('showDate');
+showDate.addEventListener('click', function(e){
+    document.getElementById('emptySpace').innerText = Date();
+});
+showDate.addEventListener('dblclick',function(e){
+    document.getElementById('emptySpace').innerText = null;
+});

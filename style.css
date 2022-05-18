@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: lightgrey;
+}
+.flex-item{
+    flex-basis: 50px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+#ok{
+    background-color: skyblue;
+    color: black;
+    border: 2px solid blue;
+}
+#cancel{
+    background-color: orange;
+    color: black;
+    border: 2px solid red;
+}
